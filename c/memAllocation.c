@@ -16,9 +16,9 @@ union testUnion
 void demoStaticMemAllocation()
 {
 	struct testStruct 	s1, s2, s3;
+	int			i;
 	union testUnion		u1, u2, u3; 
 	char			c;
-	int			i;
 	short int		is;
 	char			d[10], e[10];
 
@@ -148,4 +148,5 @@ int main()
 {
 	demoStaticMemAllocation();
 	demoDynamicMemAllocation();
+	return 0;
 }
